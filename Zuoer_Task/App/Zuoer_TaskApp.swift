@@ -11,7 +11,7 @@ import SwiftUI
 struct Zuoer_TaskApp: App {
     var body: some Scene {
         WindowGroup {
-            EmptyView()
+            ServicesListView()
         }
     }
 }

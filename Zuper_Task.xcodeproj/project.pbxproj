@@ -192,7 +192,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6AA39D52FB57F7E0081595F /* Build configuration list for PBXProject "Zuoer_Task" */;
+			buildConfigurationList = E6AA39D52FB57F7E0081595F /* Build configuration list for PBXProject "Zuper_Task" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -406,6 +406,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to search services by voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Used to search services by voice";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,6 +440,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Used to search services by voice";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Used to search services by voice";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -544,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6AA39D52FB57F7E0081595F /* Build configuration list for PBXProject "Zuoer_Task" */ = {
+		E6AA39D52FB57F7E0081595F /* Build configuration list for PBXProject "Zuper_Task" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6AA39F92FB57F7F0081595F /* Debug */,
