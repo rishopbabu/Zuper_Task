@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ServiceRowView.swift
 //  Zuoer_Task
 //
 //  Created by Rishop Babu on 14/05/26.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ServiceRowView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
@@ -20,5 +20,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ServiceRowView()
 }
