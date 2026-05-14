@@ -1,6 +1,6 @@
 //
 //  ServicesListView.swift
-//  Zuoer_Task
+//  Zuper_Task
 //
 //  Created by Rishop Babu on 14/05/26.
 //
@@ -28,15 +28,6 @@ struct ServicesListView: View {
             }
             .navigationTitle("Services")
             .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    filterButton
-                }
-            }
-            .sheet(isPresented: $showFilterSheet) {
-                FilterSheetView(filter: $viewModel.filter)
-                    .presentationDetents([.medium, .large])
-            }
         }
     }
 
@@ -104,23 +95,23 @@ struct ServicesListView: View {
         }
     }
 
-    private var filterButton: some View {
-        Button {
-            showFilterSheet = true
-        } label: {
-            ZStack(alignment: .topTrailing) {
-                Image(systemName: "line.3.horizontal.decrease.circle")
-                    .font(.system(size: 20))
-                    .foregroundColor(viewModel.filter.isActive ? .accentColor : .primary)
-                if viewModel.filter.isActive {
-                    Circle()
-                        .fill(Color.accentColor)
-                        .frame(width: 8, height: 8)
-                        .offset(x: 3, y: -3)
-                }
-            }
-        }
-    }
+//    private var filterButton: some View {
+//        Button {
+//            showFilterSheet = true
+//        } label: {
+//            ZStack(alignment: .topTrailing) {
+//                Image(systemName: "line.3.horizontal.decrease.circle")
+//                    .font(.system(size: 20))
+//                    .foregroundColor(viewModel.filter.isActive ? .accentColor : .primary)
+//                if viewModel.filter.isActive {
+//                    Circle()
+//                        .fill(Color.accentColor)
+//                        .frame(width: 8, height: 8)
+//                        .offset(x: 3, y: -3)
+//                }
+//            }
+//        }
+//    }
 }
 
 #Preview {

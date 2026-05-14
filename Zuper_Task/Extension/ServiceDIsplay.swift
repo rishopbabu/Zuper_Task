@@ -1,6 +1,6 @@
 //
 //  ServiceDIsplay.swift
-//  Zuoer_Task
+//  Zuper_Task
 //
 //  Created by Rishop Babu on 14/05/26.
 //
@@ -28,17 +28,6 @@ extension ServiceStatus {
         case .urgent:     return Color(red: 0.93, green: 0.26, blue: 0.26)
         }
     }
-
-    // Tabler-style system image approximation
-    var systemImage: String {
-        switch self {
-        case .active:     return "bolt.circle.fill"
-        case .scheduled:  return "calendar.circle.fill"
-        case .completed:  return "checkmark.circle.fill"
-        case .inProgress: return "arrow.triangle.2.circlepath.circle.fill"
-        case .urgent:     return "exclamationmark.circle.fill"
-        }
-    }
 }
 
 extension Priority {
@@ -57,16 +46,6 @@ extension Priority {
         case .medium:   return Color(red: 0.96, green: 0.76, blue: 0.11)
         case .high:     return Color(red: 0.96, green: 0.62, blue: 0.11)
         case .critical: return Color(red: 0.93, green: 0.26, blue: 0.26)
-        }
-    }
-
-    // Tabler-style system image approximation
-    var systemImage: String {
-        switch self {
-        case .low:      return "arrow.down.circle.fill"
-        case .medium:   return "minus.circle.fill"
-        case .high:     return "arrow.up.circle.fill"
-        case .critical: return "flame.fill"
         }
     }
 }

@@ -1,13 +1,13 @@
 //
-//  Zuoer_TaskUITestsLaunchTests.swift
-//  Zuoer_TaskUITests
+//  Zuper_TaskUITestsLaunchTests.swift
+//  Zuper_TaskUITests
 //
 //  Created by Rishop Babu on 14/05/26.
 //
 
 import XCTest
 
-final class Zuoer_TaskUITestsLaunchTests: XCTestCase {
+final class Zuper_TaskUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

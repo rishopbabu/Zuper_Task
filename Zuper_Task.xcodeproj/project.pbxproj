@@ -34,19 +34,19 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E6AA39DC2FB57F7E0081595F /* Zuoer_Task */ = {
+		E6AA39DC2FB57F7E0081595F /* Zuper_Task */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Zuoer_Task;
+			path = Zuper_Task;
 			sourceTree = "<group>";
 		};
-		E6AA39EA2FB57F7F0081595F /* Zuoer_TaskTests */ = {
+		E6AA39EA2FB57F7F0081595F /* Zuper_TaskTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Zuoer_TaskTests;
+			path = Zuper_TaskTests;
 			sourceTree = "<group>";
 		};
-		E6AA39F42FB57F7F0081595F /* Zuoer_TaskUITests */ = {
+		E6AA39F42FB57F7F0081595F /* Zuper_TaskUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Zuoer_TaskUITests;
+			path = Zuper_TaskUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -80,9 +80,9 @@
 		E6AA39D12FB57F7E0081595F = {
 			isa = PBXGroup;
 			children = (
-				E6AA39DC2FB57F7E0081595F /* Zuoer_Task */,
-				E6AA39EA2FB57F7F0081595F /* Zuoer_TaskTests */,
-				E6AA39F42FB57F7F0081595F /* Zuoer_TaskUITests */,
+				E6AA39DC2FB57F7E0081595F /* Zuper_Task */,
+				E6AA39EA2FB57F7F0081595F /* Zuper_TaskTests */,
+				E6AA39F42FB57F7F0081595F /* Zuper_TaskUITests */,
 				E6AA39DB2FB57F7E0081595F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E6AA39DC2FB57F7E0081595F /* Zuoer_Task */,
+				E6AA39DC2FB57F7E0081595F /* Zuper_Task */,
 			);
 			name = Zuoer_Task;
 			packageProductDependencies = (
@@ -137,7 +137,7 @@
 				E6AA39E92FB57F7F0081595F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E6AA39EA2FB57F7F0081595F /* Zuoer_TaskTests */,
+				E6AA39EA2FB57F7F0081595F /* Zuper_TaskTests */,
 			);
 			name = Zuoer_TaskTests;
 			packageProductDependencies = (
@@ -160,7 +160,7 @@
 				E6AA39F32FB57F7F0081595F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E6AA39F42FB57F7F0081595F /* Zuoer_TaskUITests */,
+				E6AA39F42FB57F7F0081595F /* Zuper_TaskUITests */,
 			);
 			name = Zuoer_TaskUITests;
 			packageProductDependencies = (
@@ -419,7 +419,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Zuoer-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zuper-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -453,7 +453,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Zuoer-Task";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Zuper-Task";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;

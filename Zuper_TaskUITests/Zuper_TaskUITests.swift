@@ -1,13 +1,13 @@
 //
-//  Zuoer_TaskUITests.swift
-//  Zuoer_TaskUITests
+//  Zuper_TaskUITests.swift
+//  Zuper_TaskUITests
 //
 //  Created by Rishop Babu on 14/05/26.
 //
 
 import XCTest
 
-final class Zuoer_TaskUITests: XCTestCase {
+final class Zuper_TaskUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

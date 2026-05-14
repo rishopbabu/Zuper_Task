@@ -1,6 +1,6 @@
 //
 //  SearchBarView.swift
-//  Zuoer_Task
+//  Zuper_Task
 //
 //  Created by Rishop Babu on 14/05/26.
 //
@@ -35,9 +35,6 @@ struct SearchBarView: View {
                         .font(.system(size: 16))
                 }
             }
-
-//            Divider()
-//                .frame(height: 20)
 
             Button {
                 isFocused = false
